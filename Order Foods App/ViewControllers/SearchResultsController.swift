@@ -59,7 +59,7 @@ class SearchResultsController: UITableViewController {
         // 1
         self.dismiss(animated: true, completion: nil)
         // 2
-        let urlpath = "https://maps.googleapis.com/maps/api/geocode/json?address=\(self.searchResults[indexPath.row])&sensor=false&key=AIzaSyDiwZBRagHN-kSuV5Y2X9PjoXVWGxNH8w0".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
+        let urlpath = "https://maps.googleapis.com/maps/api/geocode/json?address=\(self.searchResults[indexPath.row])&sensor=false&key=YOUR_API_KEY".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
 
         let url = URL(string: urlpath!)
         let task = URLSession.shared.dataTask(with: url! as URL) { (data, response, error) -> Void in
