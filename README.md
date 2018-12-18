@@ -1,7 +1,7 @@
 # Order Foods App
 IOS/Swift
 
-Foods Order Application Using Firebase Database, Google Maps API
+Foods Order Application Using Firebase Database, Google Maps API, MailCore
 
 # How to install
 1. Clone this repository
