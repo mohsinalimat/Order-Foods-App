@@ -150,7 +150,7 @@ class OrderViewController: UIViewController, UISearchBarDelegate, LocateOnTheMap
         let smtpSession = MCOSMTPSession()
         smtpSession.hostname = "smtp.gmail.com"
         smtpSession.username = "gerasimm1003@gmail.com"
-        smtpSession.password = "aperon1003"
+        smtpSession.password = "****"
         smtpSession.port = 465
         smtpSession.authType = MCOAuthType.saslPlain
         smtpSession.connectionType = MCOConnectionType.TLS
