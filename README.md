@@ -6,7 +6,7 @@ Foods Order Application Using Firebase Database, Google Maps API, MailCore
 # How to install
 1. Clone this repository
 2. Open directory on terminal
-3. run -- pod install
+3. $ pod install
 4. run "Order Foods App.xcworkspace" file
 5. Open AppDelegate.swift and SearchResultsController.swift files, paste your API key instead YOUR_API_KEY
 
