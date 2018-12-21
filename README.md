@@ -1,5 +1,5 @@
 # Order Foods App
-IOS/Swift
+iOS/Swift
 
 Foods Order Application Using Firebase Database, Google Maps API, MailCore
 
